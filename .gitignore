@@ -1,0 +1,21 @@
+# Outputs
+output/
+reports/
+logs/
+screenshots/
+tmp/
+
+# Python
+__pycache__/
+*.pyc
+
+# VSCode
+.vscode/
+
+# Secrets
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
