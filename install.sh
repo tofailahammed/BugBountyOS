@@ -11,6 +11,8 @@ bash install/recon.sh
 bash install/web.sh
 bash install/javascript.sh
 bash install/vulnerability.sh
+bash install/bbot.sh
+bash install/automation.sh
 
 echo ""
 echo "Core installation complete."
