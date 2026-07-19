@@ -8,6 +8,8 @@ echo "======================================"
 bash install/core.sh
 bash install/projectdiscovery.sh
 bash install/recon.sh
+bash install/web.sh
+bash install/javascript.sh
 
 echo ""
 echo "Core installation complete."
