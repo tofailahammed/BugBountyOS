@@ -19,3 +19,6 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+# Ignore downloaded wordlists
+wordlists/SecLists/
+wordlists/PayloadsAllTheThings/
