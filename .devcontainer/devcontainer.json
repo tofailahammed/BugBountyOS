@@ -1,0 +1,25 @@
+{
+  "name": "BugBountyOS",
+
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+
+  "features": {
+    "ghcr.io/devcontainers/features/go:1": {},
+    "ghcr.io/devcontainers/features/python:1": {},
+    "ghcr.io/devcontainers/features/node:1": {},
+    "ghcr.io/devcontainers/features/java:1": {}
+  },
+
+  "postCreateCommand": "bash install/install-core.sh",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "golang.Go",
+        "redhat.java",
+        "github.vscode-github-actions"
+      ]
+    }
+  }
+}
